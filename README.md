@@ -4,14 +4,15 @@
  - Need to Install PostgreSql 
  - Create Db and insert data by refering schema in api/schema/explorer.js file.
 
+## Installation Setps
+  - git clone https://github.com/bhosale05/assignment.git
+  - npm Install
+
 ## Configuration 
   - add database credential in config file like username, password, port
   - also enter express server port to run app
-
-## Installation Setps
-  - npm Install
   
-## Executataion setps
+## Executation setps
   - node index.js
 
 ## Sample OutPut : 
