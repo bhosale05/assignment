@@ -105,7 +105,6 @@ function sortCostType(cost_type, cost) {
     return group;
 }
 
-// get data by client_id
 router.get('/', async (req, res, next) => {
     log.info(`Request recived from client`);
     if(req.query.clientid && req.query.projectid){
